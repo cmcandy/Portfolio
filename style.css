@@ -1,0 +1,41 @@
+
+body {
+    cursor: url(assets/kisspng-computer-mouse-pointer-cursor-middle-finger-5b1f1d1b15b6b7.629216611528765723089.png), auto;
+}
+
+
+p{
+    font-family: Agrandir;
+}
+
+a{
+    text-decoration: none;
+    cursor: url(assets/kisspng-computer-mouse-pointer-cursor-middle-finger-5b1f1d1b15b6b7.629216611528765723089.png), auto;
+}
+
+.eins {
+    position: absolute;
+    left: 60%;
+    font-size: 100px;
+    opacity: 50%;
+    color: fuchsia;
+    z-index: 6;
+}
+
+.eins:hover {
+    transform: rotate(356deg);
+}
+
+.zwei {
+    position: absolute;
+    left: 60px;
+    font-size: 100px;
+    opacity: 50%;
+    color: fuchsia;
+    z-index: 7;
+}
+
+.foto {
+    width: 80%;
+    z-index: 1;
+}
