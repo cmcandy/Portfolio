@@ -126,11 +126,8 @@ line-height: 1.2;
   margin-left: -350px;
   top: 25.9%;
   margin-top: -200px;
-  filter: blur(10px);
-    -webkit-filter: blur(50px);
-    -moz-filter: blur(50px);
-    -o-filter: blur(50px);
-    -ms-filter: blur(50px);
+ filter: blur(5px);
+  webkit-filter: blur(30px);
       transition: ease 0.9s;}
 
       .hungryghosts-hg{
@@ -139,11 +136,8 @@ line-height: 1.2;
         margin-left: -350px;
         top: 33.0%;
         margin-top: -200px;
-        filter: blur(10px);
-          -webkit-filter: blur(50px);
-          -moz-filter: blur(50px);
-          -o-filter: blur(50px);
-      -filter: blur(50px);
+      filter: blur(5px);
+  webkit-filter: blur(30px);
             transition: ease 0.9s;
 }
 .iloveyourcar-hg{
@@ -152,11 +146,8 @@ line-height: 1.2;
   margin-left: -350px;
   top: 31%;
   margin-top: -200px;
-  filter: blur(10px);
-    -webkit-filter: blur(50px);
-    -moz-filter: blur(50px);
-    -o-filter: blur(50px);
--filter: blur(50px);
+  filter: blur(5px);
+  webkit-filter: blur(30px);
       transition: ease 0.9s;
 
 
