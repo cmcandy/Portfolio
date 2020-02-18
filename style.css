@@ -94,7 +94,7 @@ line-height: 1.2;
     -webkit-filter: blur(10px);
     -moz-filter: blur(10px);
     -o-filter: blur(10px);
-    -ms-filter: blur(10px);}
+}
 
     .edges-hg-sc{
       position: absolute;
@@ -106,7 +106,6 @@ line-height: 1.2;
         -webkit-filter: blur(10px);
         -moz-filter: blur(10px);
         -o-filter: blur(10px);
-        -ms-filter: blur(10px);
 }
 .edges-hg-il{
   position: absolute;
@@ -118,7 +117,7 @@ line-height: 1.2;
     -webkit-filter: blur(10px);
     -moz-filter: blur(10px);
     -o-filter: blur(10px);
-    -ms-filter: blur(10px);
+
 }
 
 .background-sc{
