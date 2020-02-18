@@ -93,7 +93,7 @@ line-height: 1.2;
     -moz-filter: blur(50px);
     -o-filter: blur(50px);
     -ms-filter: blur(50px);
-      transition: ease 0.9s;}
+    }
 
       .hungryghosts-hg{
         position: absolute;
