@@ -44,7 +44,6 @@ line-height: 1.2;
 #wrapper-sc{
   width: 546px;
   height: 772px;
-  margin: auto;
   margin-top: 10%;
     margin-left: 55%;
   background-color: #FFFFFF;
@@ -93,6 +92,7 @@ line-height: 1.2;
     -moz-filter: blur(50px);
     -o-filter: blur(50px);
     -ms-filter: blur(50px);
+  transition: ease 0.9s;
     }
 
       .hungryghosts-hg{
