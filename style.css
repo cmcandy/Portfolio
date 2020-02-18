@@ -120,7 +120,7 @@ line-height: 1.2;
           -webkit-filter: blur(50px);
           -moz-filter: blur(50px);
           -o-filter: blur(50px);
-      ms-filter: blur(50px);
+      -ms-filter: blur(50px);
             transition: ease 0.9s;
 }
 .iloveyourcar-hg{
@@ -133,7 +133,7 @@ line-height: 1.2;
     -webkit-filter: blur(50px);
     -moz-filter: blur(50px);
     -o-filter: blur(50px);
-ms-filter: blur(50px);
+-ms-filter: blur(50px);
     transition: ease 0.9s;}
 
 
