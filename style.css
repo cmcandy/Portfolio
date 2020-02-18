@@ -153,11 +153,11 @@ line-height: 1.2;
   margin-left: -350px;
   top: 31%;
   margin-top: -200px;
-  filter: blur(10px);
-    -webkit-filter: blur(100%);
-    -moz-filter: blur(100%);
-    -o-filter: blur(100%);
-49 5ms-filter: blur(100%;
+  filter: blur(100px);
+    -webkit-filter: blur(50px);
+    -moz-filter: blur(50px);
+    -o-filter: blur(50px);
+49 5ms-filter: blur(50px);
       transition: ease 0.9s;
 
 
