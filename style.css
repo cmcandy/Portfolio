@@ -41,7 +41,7 @@ line-height: 1.2;
       margin-top: 0.1%;
         position: absolute;
 }
-#wrapper-sc{
+#Algorithmic{
   width: 546px;
   height: 772px;
   margin-top: 10%;
@@ -55,9 +55,10 @@ line-height: 1.2;
   overflow: hidden;
 }
 
-#hungryghostswr-hg{
+#Hungryghosts{
   width: 600px;
   height: 600px;
+  margin: auto;
   margin-top: 10%;
     margin-left: 5%;
   background-color: #FFFFFF;
@@ -66,11 +67,13 @@ line-height: 1.2;
   box-shadow: 0px 40px 80px -20px rgba(0,0,0,0.8);
    box-shadow: 0 25px 60px rgba(0,0,0,.8);
   position: absolute;
+    overflow: hidden;
 
 }
-#iloveyourcar-hg{
+#Ilyc{
   width: 456px;
   height: 646px;
+  margin: auto;
   margin-top: 60%;
     margin-left: 15%;
   background-color: #FFFFFF;
@@ -82,12 +85,10 @@ line-height: 1.2;
   overflow: hidden;
 }
 
-.background-sc{
+.algorithmic-pos{
   position: absolute;
-  left: 64.0%;
-  margin-left: -350px;
-  top: 25.9%;
-  margin-top: -200px;
+  margin-left: 0px;
+  margin-top: 0px;
   filter: blur(10px);
     -webkit-filter: blur(50px);
     -moz-filter: blur(50px);
@@ -96,33 +97,31 @@ line-height: 1.2;
       transition: ease 0.9s;
     }
 
-      .hungryghosts-hg{
+  .hungryghosts-pos{
         position: absolute;
-        left: 58.30%;
-        margin-left: -350px;
-        top: 33.0%;
-        margin-top: -200px;
+        margin-left: 0px;
+        margin-top: 0px;
         filter: blur(10px);
           -webkit-filter: blur(50px);
           -moz-filter: blur(50px);
           -o-filter: blur(50px);
-      -ms-filter: blur(50px);
+          -ms-filter: blur(50px);
             transition: ease 0.9s;
-}
-.iloveyourcar-hg{
+          }
+
+.iloveyourcar-pos{
   position: absolute;
-  left: 76.80%;
-  margin-left: -350px;
-  top: 31%;
-  margin-top: -200px;
+  margin-left: 0px;
+  margin-top: 0px;
   filter: blur(10px);
     -webkit-filter: blur(50px);
     -moz-filter: blur(50px);
     -o-filter: blur(50px);
     -ms-filter: blur(50px);
-      transition: ease 0.9s;}
+      transition: ease 0.9s;
+    }
 
-.background-sc:hover{
+.algorithmic-pos:hover{
    filter: blur(0px);
     -webkit-filter: blur(0px);
     -moz-filter: blur(0px);
@@ -131,7 +130,7 @@ line-height: 1.2;
       transition: ease 0.9s;
 }
 
-.hungryghosts-hg:hover{
+.hungryghosts-pos:hover{
    filter: blur(0px);
     -webkit-filter: blur(0px);
     -moz-filter: blur(0px);
@@ -139,7 +138,7 @@ line-height: 1.2;
     -ms-filter: blur(0px);
       transition: ease 0.9s;
 }
-.iloveyourcar-hg:hover{
+.iloveyourcar-pos:hover{
    filter: blur(0px);
     -webkit-filter: blur(0px);
     -moz-filter: blur(0px);
