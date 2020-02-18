@@ -52,6 +52,7 @@ line-height: 1.2;
   box-shadow: 0px 40px 80px -20px rgba(0,0,0,0.8);
    box-shadow: 0 25px 60px rgba(0,0,0,.8);
   position: absolute;
+  overflow: hidden;
 }
 
 #hungryghostswr-hg{
@@ -66,6 +67,7 @@ line-height: 1.2;
   box-shadow: 0px 40px 80px -20px rgba(0,0,0,0.8);
    box-shadow: 0 25px 60px rgba(0,0,0,.8);
   position: absolute;
+
 }
 #iloveyourcar-hg{
   width: 456px;
@@ -79,6 +81,7 @@ line-height: 1.2;
   box-shadow: 0px 40px 80px -20px rgba(0,0,0,0.8);
    box-shadow: 0 25px 60px rgba(0,0,0,.8);
   position: absolute;
+  overflow: hidden;
 }
 
 .background-sc{
@@ -114,13 +117,13 @@ line-height: 1.2;
   margin-left: -350px;
   top: 31%;
   margin-top: -200px;
-       filter: blur(10px);
-          -webkit-filter: blur(50px);
-          -moz-filter: blur(50px);
-          -o-filter: blur(50px);
-      -ms-filter: blur(50px);
-            transition: ease 0.9s;
-}
+  filter: blur(10px);
+    -webkit-filter: blur(50px);
+    -moz-filter: blur(50px);
+    -o-filter: blur(50px);
+    -ms-filter: blur(50px);
+      transition: ease 0.9s;}
+
 .background-sc:hover{
    filter: blur(0px);
     -webkit-filter: blur(0px);
@@ -168,4 +171,4 @@ a:hover {
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;}
+  transition: all 0.2s ease-in;
