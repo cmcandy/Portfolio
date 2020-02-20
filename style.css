@@ -1,8 +1,9 @@
-a{
+
+a.Instagram{
     position: absolute;
   font-family: TimesNewRoman,'Helvetica Neue',Times,serif;
   font-size: 14px;
-  font-weight: light;
+  font-weight: normal;
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
       margin-left: 80%;
@@ -53,7 +54,9 @@ line-height: 1.2;
    box-shadow: 0 25px 60px rgba(0,0,0,.8);
   position: absolute;
   overflow: hidden;
+
 }
+
 
 #Hungryghosts{
   width: 600px;
@@ -83,6 +86,7 @@ line-height: 1.2;
    box-shadow: 0 25px 60px rgba(0,0,0,.8);
   position: absolute;
   overflow: hidden;
+
 
 }
 
@@ -169,5 +173,14 @@ a:hover {
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-}
+  transition: all 0.2s ease-in;}
+
+  .av-image-caption-overlay {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    bottom: -20px !important;
+    color: black !important;
+    height: auto !important;
+    left: 50% !important;
+    transform: translate(-50%) !important;
+    width: auto !important;
+  }
