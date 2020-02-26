@@ -1,7 +1,7 @@
 
 a.Instagram{
     position: absolute;
-  font-family: TimesNewRoman,'Helvetica Neue',Times,serif;
+  font-family: Helvetica Neue;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.2;
@@ -12,7 +12,7 @@ a.Instagram{
 }
 a.Arena{
     position: absolute;
-  font-family: TimesNewRoman,'Helvetica Neue',Times,serif;
+  font-family: Helvetica Neue;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.2;
@@ -23,7 +23,7 @@ a.Arena{
 }
 a.Mail{
     position: absolute;
-  font-family: TimesNewRoman,'Helvetica Neue',Times,serif;
+  font-family: Helvetica Neue;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.2;
@@ -59,7 +59,7 @@ a:hover {
 
 
 h1{
-font-family: TimesNewRoman,'Helvetica',Times,serif;
+font-family: Helvetica Neue
 font-size: 22px;
 letter-spacing: 1px;
 font-weight: 500;
