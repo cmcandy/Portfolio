@@ -457,7 +457,7 @@ display: grid;
 
 
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1050px) {
   .blur{  width: 100%;
     height: auto;
     -webkit-filter: blur(0px);
