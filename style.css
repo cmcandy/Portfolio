@@ -213,14 +213,8 @@ transform: translate(-50%, -50%);
 
 
 
-    @media only screen
-      and (min-device-width: 375px)
-      and (max-device-width: 667px)
-      and (-webkit-min-device-pixel-ratio: 2) {
-
-    
-
-    h1{font-size: 12px;
+    @media (max-width: 600px) {
+h1{font-size: 12px;
 }
 a.Instagram{  font-size: 12px;
   margin-left: 65%;
