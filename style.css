@@ -474,7 +474,7 @@ section{    grid-gap: 500px 15px;
 }
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
 
   section{    grid-gap: 500px 15px;
     margin-left: 5px;
