@@ -457,7 +457,7 @@ display: grid;
 
 
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 992px) {
   .blur{  width: 100%;
     height: auto;
     -webkit-filter: blur(0px);
@@ -490,7 +490,7 @@ a.Mail{
 }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1023px) {
   a.Instagram{
 
         margin-left: 68%;
@@ -506,9 +506,23 @@ a.Mail{
         margin-left: 94%;
           margin-top: 0.3%;
   }
+  .blur{  width: 100%;
+    height: auto;
+    -webkit-filter: blur(0px);
+
+  }
+  img {
+      max-width: 48%;
+      height: auto;
+  }
+  section{    grid-gap: 500px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+
 }
 
-
+}
 
 
 @media (max-width: 768px) {
