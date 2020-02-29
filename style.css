@@ -453,6 +453,42 @@ display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 500px 200px;}
 
+    @media (max-width: 1023px) {
+
+      body {          overflow-x: hidden;
+}
+      a.Instagram{
+
+            margin-left: 68%;
+              margin-top: 0.3%;
+      }
+      a.Arena{
+
+            margin-left: 83.5%;
+              margin-top: 0.3%;
+      }
+      a.Mail{
+
+            margin-left: 94%;
+              margin-top: 0.3%;
+      }
+      .blur{  width: 100%;
+        height: auto;
+        -webkit-filter: blur(0px);
+
+      }
+      img {
+          max-width: 48%;
+          height: auto;
+      }
+      section{    grid-gap: 500px 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+
+    }
+
+    }
 
 
 
@@ -490,39 +526,6 @@ a.Mail{
 }
 }
 
-@media (max-width: 1023px) {
-  a.Instagram{
-
-        margin-left: 68%;
-          margin-top: 0.3%;
-  }
-  a.Arena{
-
-        margin-left: 83.5%;
-          margin-top: 0.3%;
-  }
-  a.Mail{
-
-        margin-left: 94%;
-          margin-top: 0.3%;
-  }
-  .blur{  width: 100%;
-    height: auto;
-    -webkit-filter: blur(0px);
-
-  }
-  img {
-      max-width: 48%;
-      height: auto;
-  }
-  section{    grid-gap: 500px 15px;
-    margin-left: 5px;
-    margin-right: 5px;
-
-
-}
-
-}
 
 
 @media (max-width: 768px) {
