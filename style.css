@@ -485,8 +485,6 @@ section{    grid-gap: 500px 15px;
         max-width: 98%;
         height: auto;
 }
-a{    margin-right: 15px;
-}
 
 a.Instagram, a.Arena, A.Mail{     display: none;
 }
