@@ -1,5 +1,5 @@
 a.Instagram{
-    position: absolute;
+    position: fixed;
   font-family: Helvetica Neue;
   font-size: 22px;
   font-weight: normal;
@@ -10,7 +10,7 @@ a.Instagram{
         color: rgb(0, 255, 0)
 }
 a.Arena{
-    position: absolute;
+    position: fixed;
   font-family: Helvetica Neue;
   font-size: 22px;
   font-weight: normal;
@@ -314,6 +314,8 @@ line-height: 1.0;
         color: rgb(0, 255, 0)
 }
 
+h2{ font-family: Helvetica Neue;
+font-weight: 400}
 
 br {
   content: "";
@@ -350,8 +352,7 @@ left: 0px;
 }
 
 
-h2{ font-family: Helvetica Neue;
-font-weight: 400}
+
 
 .captionhg {
   color: #888;
@@ -472,6 +473,61 @@ section{    grid-gap: 500px 15px;
 
 
 }
+a.Instagram{
+
+      margin-left: 50%;
+        margin-top: 0.3%;
+}
+a.Arena{
+
+      margin-left: 74%;
+        margin-top: 0.3%;
+}
+a.Mail{
+
+      margin-left: 91%;
+        margin-top: 0.3%;
+}
+}
+
+@media (max-width: 1050px) {
+  a.Instagram{
+
+        margin-left: 68%;
+          margin-top: 0.3%;
+  }
+  a.Arena{
+
+        margin-left: 83.5%;
+          margin-top: 0.3%;
+  }
+  a.Mail{
+
+        margin-left: 94%;
+          margin-top: 0.3%;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+  a.Instagram{
+
+        margin-left: 52%;
+          margin-top: 0.3%;
+  }
+
+  a.Arena{
+
+        margin-left: 75%;
+          margin-top: 0.3%;
+  }
+  a.Mail{
+
+        margin-left: 91%;
+          margin-top: 0.3%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -487,5 +543,17 @@ section{    grid-gap: 500px 15px;
 }
 
 a.Instagram, a.Arena, A.Mail{     display: none;
+}
+*{          overflow-x: hidden;
+}
+h1{position: absolute;
+   margin-left: 1.5%;
+      margin-top: 1.5%;
+        position: absolute;
+      font-size: 26px}
+
+}
+.hide-when-narrow {
+  display: none;
 }
 }
