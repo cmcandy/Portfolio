@@ -195,7 +195,6 @@ transform: translate(-50%, -50%);
         min-height: 100%;
           margin: 0;
           padding: 0;
-          position:relative;
           overflow-x: hidden;
 
       }
@@ -573,4 +572,5 @@ h1{position: absolute;
 .hide-when-narrow {
   display: none;
 }
+body,html{position: fixed;}
 }
