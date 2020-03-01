@@ -572,5 +572,5 @@ h1{position: absolute;
 .hide-when-narrow {
   display: none;
 }
-body,html{position: fixed;}
+body,html{position: relative;;}
 }
