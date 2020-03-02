@@ -56,7 +56,26 @@ a:hover {
     transition: all 0.2s ease-in;
   }
 
+  p{position: absolute;
+    margin-top: 1000px;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-size: 30px;
+  font-family: Helvetica Neue;
+  font-weight: thicker;
+  color: rgb(0, 255, 0);
+  text-shadow: 3px 3px 20px rgb(0, 255, 0),
+      -2px 1px 30px rgb(0, 255, 0);
+  }
+  figure {
+    margin-left: 0px;
+    display:inline-block;
+    vertical-align:top;
+  }
 
+  figcaption{margin-left: 50px;
+
+  }
 h1{
 font-family: Helvetica Neue;
 font-size: 22px;
@@ -77,52 +96,24 @@ br {
   display: block;
   font-size: 22%;
 }
+@font-face {
+  font-family: "Serifbabe" ;
+  src: url("Serifbabe_Regular.ttf");}
 
-p{position: absolute;
-  margin-top: 1000px;
-margin-left: 80px;
-margin-right: 80px;
-font-size: 30px;
-font-family: Helvetica Neue;
-font-weight: thicker;
-color: white;
-text-shadow: 3px 3px 20px rgb(0, 255, 0),
-    -2px 1px 30px rgb(0, 255, 0);
+h2{
+
+    font-family: Serifbabe;
+font-weight: 200;
+font-size: 22px;
+margin-top: 4%;
+  color: rgb(0, 255, 0);
+  text-shadow: 3px 3px 20px white,
+      -2px 1px 30px white;
 }
 
 
-.captionag {
-    color: #888;
-    color: white;
-        text-shadow: 3px 3px 20px rgb(0, 255, 0),
-            -2px 1px 30px rgb(0, 255, 0);
-    text-align: center;
-font-size: 30px;
-margin-top: 65%;
-margin-left: 28.0%;
-position: absolute;
-width: 100%;
-left: 0px;
-}
 
 
-h2{ font-family: Helvetica Neue;
-font-weight: 400}
-
-.captionhg {
-  color: #888;
-  color: white;
-      text-shadow: 3px 3px 20px rgb(0, 255, 0),
-          -2px 1px 30px rgb(0, 255, 0);
-  text-align: center;
-  font-size: 30px;
-  margin-top: 55%;
-  margin-left: -26.0%;
-  position: absolute;
-  width: 100%;
-  left: 0px;
-
-}
 
 #Algorithmic{
   width: 601px;
@@ -172,20 +163,6 @@ height:auto;
 
 
 
-  video {
-    position: absolute;
-top: 60%;
-left: 50%;
-/* bring your own prefixes */
-transform: translate(-50%, -50%);
-
-      background-color: #FFFFFF;
-      -webkit-box-shadow: 0px 40px 80px -20px rgba(0,0,0,0.3);
-      -moz-box-shadow: 0px 40px 80px -20px rgba(0,0,0,0.3);
-      box-shadow: 0px 40px 80px -20px rgba(0,0,0,0.8);
-       box-shadow: 0 25px 60px rgba(0,0,0,.8);
-  }
-
 
   html, body{
         min-height: 5000px;
@@ -203,7 +180,7 @@ transform: translate(-50%, -50%);
 display: grid;
     width: 100vw;
     margin-top: 100px;
-    margin-left: 10px;
+    margin-left: 5px;
     grid-template-rows: 800px;
     grid-template-columns: 1fr 1fr;
     grid-gap: 500px 200px;}
@@ -229,11 +206,7 @@ section{    grid-template-columns: 1fr;
   grid-gap: 100px;}
 
 
-.captionag{margin-left: 0.0%;   margin-top: 175%;
 
-}
-.captionhg{margin-left: 0.0%;
-}
 .blur{  width: 100%;
   height: auto;
   -webkit-filter: blur(0px);
@@ -314,8 +287,7 @@ line-height: 1.0;
         color: rgb(0, 255, 0)
 }
 
-h2{ font-family: Helvetica Neue;
-font-weight: 400}
+
 
 br {
   content: "";
@@ -338,34 +310,25 @@ text-shadow: 3px 3px 20px rgb(0, 255, 0),
 
 
 .captionag {
-    color: #888;
-    color: white;
-        text-shadow: 3px 3px 20px rgb(0, 255, 0),
-            -2px 1px 30px rgb(0, 255, 0);
+
     text-align: center;
-font-size: 30px;
 margin-top: 65%;
-margin-left: 28.0%;
+margin-left: 29.0%;
 position: absolute;
 width: 100%;
-left: 0px;
 }
 
 
 
 
 .captionhg {
-  color: #888;
-  color: white;
-      text-shadow: 3px 3px 20px rgb(0, 255, 0),
-          -2px 1px 30px rgb(0, 255, 0);
+
   text-align: center;
   font-size: 30px;
   margin-top: 55%;
   margin-left: -26.0%;
   position: absolute;
   width: 100%;
-  left: 0px;
 
 }
 
@@ -417,19 +380,6 @@ height:auto;
 
 
 
-  video {
-    position: absolute;
-top: 60%;
-left: 50%;
-/* bring your own prefixes */
-transform: translate(-50%, -50%);
-
-      background-color: #FFFFFF;
-      -webkit-box-shadow: 0px 40px 80px -20px rgba(0,0,0,0.3);
-      -moz-box-shadow: 0px 40px 80px -20px rgba(0,0,0,0.3);
-      box-shadow: 0px 40px 80px -20px rgba(0,0,0,0.8);
-       box-shadow: 0 25px 60px rgba(0,0,0,.8);
-  }
 
 
   html, body{
@@ -492,6 +442,7 @@ display: grid;
 
 
 
+
 @media only screen and (max-width: 992px) {
   .blur{  width: 100%;
     height: auto;
@@ -544,6 +495,7 @@ a.Mail{
         margin-left: 91%;
           margin-top: 0.3%;
   }
+
 }
 
 @media (max-width: 600px) {
@@ -568,7 +520,7 @@ h1{position: absolute;
         position: absolute;
       font-size: 26px}
 
-}
+
 .hide-when-narrow {
   display: none;
 }
