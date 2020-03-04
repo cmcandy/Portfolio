@@ -8,16 +8,29 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./normalize.css">
 
-<script src="./haha.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+  <script type="text/javascript">
+  $(document).on('click', '#vv', function (e) {
+      var video = $(this).get(0);
+      if (video.paused === false) {
+          video.pause();
+      } else {
+          video.play();
+      }
 
-</script>
+      return false;
+  });
+  </script>
+
+
   <link rel="icon" type="image/png" href="https://sandyrichter.com/favicon-16x16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
 <link rel="manifest" href="./site.webmanifest">
 <link rel="shortcut icon" href="favicon.ico" />
-  <link rel="shortcut icon" 
+  <link rel="shortcut icon"
       href="http://sandyrichter.com/favicon.ico"
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
@@ -31,8 +44,8 @@
   <a href="https://www.are.na/sandy-richter"class="Arena">ARE.NA</a>
   <a href="mailto:richtersandy@gmx.net"class="Mail">MAIL</a>
 
-  <h1>SANDY RICHTER <span class="hide-when-narrow"><br> HI, I AM A DESIGNER LIVING IN GERMANY</span></h1>
-
+  <h1>SANDY RICHTER <br>HI, I AM A DESIGNER LIVING IN GERMANY<span class="hide-when-narrow"><br>RICHTER.SANDY@GMX.NET</span></h1>
+<h3>SANDY RICHTER <br>HI, I AM A DESIGNER LIVING IN GERMANY<br>RICHTER.SANDY@GMX.NET</h3>
 
     <div class="captionhg"><h2>HUNGRY GHOSTS. GENERATED VIDEO</h2>
     </div>
@@ -48,7 +61,7 @@
   <a>
     <div class="video" >
 
-<video onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;" onclick="this.pause();this.currentTime=0;" class="blur" height=700 width=700 loop autoplay muted>
+<video id= vv onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;"  class="blur" height=700 width=700 loop autoplay muted>
      <source src="./assets/HG.MP4" type="video/mp4" />
 
   </video>
