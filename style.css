@@ -12,15 +12,38 @@ html, body{
 
     }
 
-section{
+.wrapper1{
 display: grid;
   width: 100vw;
   margin-top: 100px;
-  margin-left: 5px;
-  grid-template-rows: 800px;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 500px 200px;}
+  margin-left: auto;
+  margin-right: auto;
 
+  grid-template-rows: 1000px;
+  grid-template-columns: 1fr 1fr;
+  }
+
+  .wrapperl{   margin: auto;
+  width: 50%;
+  border: 0px
+  padding: 10px;
+  margin-left: 1%;
+  margin-right: auto;
+}
+
+
+  .wrapperr{   margin: auto;
+  width: 50%;
+  border: 0px
+  padding: 10px;
+  margin-left: auto;
+  margin-right: 1%;
+  
+}
+
+.bild2{
+  margin-right: 5px;
+}
 
   h1{
   font-family: Helvetica Neue;
@@ -165,6 +188,9 @@ a:hover {
     -o-filter: blur(70px);
     -ms-filter: blur(70px);
       transition: ease 0.9s;
+      display: block;
+    margin-left: auto;
+    margin-right: auto
 
     }
 
@@ -181,6 +207,29 @@ a:hover {
 
 
 
+.captionwrapper{
+  position: relative;
+
+  font-family: Serifbabe;
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 10%;
+    color: rgb(0, 255, 0);
+    text-shadow: 3px 3px 20px white, -2px 1px 30px white;
+    text-align: center;
+}
+
+
+.captionwrapper2{
+
+  font-family: Serifbabe;
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 24%;
+    color: rgb(0, 255, 0);
+    text-shadow: 3px 3px 20px white, -2px 1px 30px white;
+    text-align: center;
+}
 /*
 
     @media (max-width: 600px) {
