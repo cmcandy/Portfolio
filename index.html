@@ -11,6 +11,20 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
   </script>
   <script type="text/javascript">
+  $(document).ready(function(){
+        $('#bild2').click(function(){
+
+          $('#bild2').hide();
+          $('#wrapper3').show();
+        })
+
+        $('#wrapper3').click(function(){
+          $('#wrapper3').hide();
+          $('#bild2').show();
+          $('#bild2').removeClass('blur');
+        })
+
+  });
   $(document).on('click', '#vv', function (e) {
       var video = $(this).get(0);
       if (video.paused === false) {
@@ -23,6 +37,12 @@
   });
   </script>
 
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#wrapper1').css('display','none');
+  $('#loader').css('display','block');
+});
+</script>
 
   <link rel="icon" type="image/png" href="https://sandyrichter.com/favicon-16x16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
@@ -38,6 +58,7 @@
 <meta name="theme-color" content="#ffffff">
 </head>
 <body>
+<div class="loader">
 
 
   <a href="https://www.instagram.com/sandyrichter_/"class="Instagram">INSTAGRAM</a>
@@ -46,35 +67,53 @@
 
   <h1>SANDY RICHTER <br>HI, I AM A DESIGNER LIVING IN GERMANY<span class="hide-when-narrow"><br>RICHTER.SANDY@GMX.NET</span></h1>
 <h3>SANDY RICHTER <br>HI, I AM A DESIGNER LIVING IN HAMBURG, GERMANY<br>RICHTER.SANDY@GMX.NET</h3>
-
-    <div class="captionhg"><h2>HUNGRY GHOSTS. GENERATED VIDEO</h2>
-    </div>
-
-      <div class="captionag"><h2>RAGE AGAINST. AR MOVING POSTER</h2>
-      </div>
-
-
-<section>
-
-
-
-  <a>
-    <div class="video" >
-
-<video id= vv onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;"  class="blur" height=700 width=700 loop muted>
-     <source src="./assets/HG.MP4" type="video/mp4" />
-
-  </video>
 </div>
 
-</a>
+  <!--   <div class="captionhg"><h2>HUNGRY GHOSTS. GENERATED VIDEO</h2>
+  </div> -->
 
-  <a href="ag.html">
-    <img class="blur" src="./assets/Algorithmic.jpg" width="601" height="849"/>
-</a>
+<!--      <div class="captionag"><h2>RAGE AGAINST. AR MOVING POSTER</h2>
+      </div>
+-->
 
 
-  </section>
+    <div class="wrapper1">
+      <div class="wrapperl"style="width:700px;height:1000px;">
+
+    <div class="video"  style="width:700px;height:700px;">
+
+    <video id= vv onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;"  class="blur" height=700 width=700 loop muted>
+         <source src="./assets/HG.MP4" type="video/mp4" />
+
+      </video>
+    </div>
+    <div class="captionwrapper">
+      HUNGRY GHOSTS. GENERATED VIDEO OUT OF INSTAGRAM POSTS FROM INFLUENCERS. ARE WE ONLY A PIECE OF FLESH FOR AI?
+    </div>
+  </div>
+
+<div class="wrapperr"style="width:601px;height:1000px;">
+<div class="blur">
+
+<div class="video"  style="width:601px;height:849px;">
+
+  <img src="./assets/Algorithmic.jpg" id="bild2" width="601" height="849"/>
+  <div id="wrapper3" style="display:none;">
+    <video loop autoplay muted>
+         <source src="./assets/AG.mp4" type="video/mp4" />
+      </video>
+  </div>
+</div>
+<div class="captionwrapper">
+  RAGE AGAINST. MOVING POSTER AS AN APPEAL TO QUESTION THE USE OF TECHNOLOGY AND WHICH IMPACT IT HAS ON US.
+</div>
+</div>
+</div>
+
+</div>
+
+
+
 
 
 
