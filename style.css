@@ -219,16 +219,19 @@ a:hover {
     text-align: center;
 }
 
-
 .captionwrapper2{
-
+  position: relative;
   font-family: Serifbabe;
     font-weight: 200;
-    font-size: 20px;
-    margin-top: 24%;
+    font-size: 21px;
+    margin-top: 150%;
     color: rgb(0, 255, 0);
     text-shadow: 3px 3px 20px white, -2px 1px 30px white;
     text-align: center;
+    line-height: 1.1;
+    overflow: hidden;
+
+
 }
 /*
 
