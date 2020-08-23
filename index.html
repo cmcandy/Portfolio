@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Sandy Richter</title>
   <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./normalize.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
   </script>
@@ -25,6 +24,57 @@
         })
 
   });
+
+  $(document).ready(function(){
+        $('#ilycschrift').click(function(){
+
+          $('#ilycschrift').hide();
+          $('#ilyc').show();
+        })
+
+        $('#ilyc').click(function(){
+          $('#ilyc').hide();
+          $('#ilycschrift').show();
+          $('#ilyilyccschrift').removeClass('blur');
+        })
+
+  });
+
+  $(document).ready(function(){
+        $('#nsscharf').click(function(){
+
+          $('#nsscharf').hide();
+          $('#nsscharf2').show();
+        })
+
+        $('#nsscharf2').click(function(){
+          $('#nsscharf2').hide();
+          $('#nsscharf3').show();
+          $('#ilyilyccschrift').removeClass('blur');
+        })
+        $('#nsscharf3').click(function(){
+          $('#nsscharf3').hide();
+          $('#nsscharf4').show();
+          $('#ilyilyccschrift').removeClass('blur');
+        })
+        $('#nsscharf4').click(function(){
+          $('#nsscharf4').hide();
+          $('#nsscharf5').show();
+          $('#ilyilyccschrift').removeClass('blur');
+        })
+        $('#nsscharf5').click(function(){
+          $('#nsscharf5').hide();
+          $('#nsscharfe').show();
+          $('#ilyilyccschrift').removeClass('blur');
+        })
+         $('#nsscharfe').click(function(){
+            $('#nsscharfe').hide();
+            $('#nsscharf').show();
+            $('#ilyilyccschrift').removeClass('blur');
+          })
+  });
+
+
   $(document).on('click', '#vv', function (e) {
       var video = $(this).get(0);
       if (video.paused === false) {
@@ -37,12 +87,7 @@
   });
   </script>
 
-<script type="text/javascript">
-$(document).ready(function(){
-  $('#wrapper1').css('display','none');
-  $('#loader').css('display','block');
-});
-</script>
+
 
   <link rel="icon" type="image/png" href="https://sandyrichter.com/favicon-16x16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
@@ -58,59 +103,145 @@ $(document).ready(function(){
 <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-<div class="loader">
 
 
-  <a href="https://www.instagram.com/sandyrichter_/"class="Instagram">INSTAGRAM</a>
-  <a href="https://www.are.na/sandy-richter"class="Arena">ARE.NA</a>
-  <a href="mailto:richtersandy@gmx.net"class="Mail">MAIL</a>
 
-  <h1>SANDY RICHTER <br>HI, I AM A DESIGNER LIVING IN GERMANY<span class="hide-when-narrow"><br>RICHTER.SANDY@GMX.NET</span></h1>
-<h3>SANDY RICHTER <br>HI, I AM A DESIGNER LIVING IN HAMBURG, GERMANY<br>RICHTER.SANDY@GMX.NET</h3>
-</div>
+  <a href="https://www.instagram.com/sandyrichter_/"class="Instagram">RICHTERSANDY@GMX.NET</a>
 
-  <!--   <div class="captionhg"><h2>HUNGRY GHOSTS. GENERATED VIDEO</h2>
-  </div> -->
+<div class="">
 
-<!--      <div class="captionag"><h2>RAGE AGAINST. AR MOVING POSTER</h2>
-      </div>
--->
+</div>  <a
+
+
+
+
+
+
+  href="#" class="Sandy">SANDY RICHTER</a>
+
+  <script>
+  $(document).ready(function(){
+      $(".Sandy").click(function(){
+          $(this).text($(this).text() == 'SANDY RICHTER' ? 'RICHTERSANDY@GMX.NET' : 'SANDY RICHTER');
+      });
+  });
+  </script>
+
+  <a href="https://www.are.na/sandy-richter"class="Arena1">
+ <img  src="./assets/kudel.png" width="75" height="60">
+ </a>
+
+  <a href="https://www.instagram.com/sandyrichter_/"class="Instagram1">
+ <img  src="./assets/stein.png" width="65" height="55">
+ </a>
+
+
+
+
+ <div class="blur">
 
 
     <div class="wrapper1">
-      <div class="wrapperl"style="width:700px;height:1000px;">
 
-    <div class="video"  style="width:700px;height:700px;">
+      <div class="wrapperl"style="width:650px;height:650px;">
 
-    <video id= vv onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;"  class="blur" height=700 width=700 loop muted>
+    <div class="video"  style="width:650px;height:650px;">
+
+    <video id= vv onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;"  class="k" height=650 width=650 loop muted>
          <source src="./assets/HG.MP4" type="video/mp4" />
 
       </video>
+      <span class="captionwrapper">  <br>      HUNGRY GHOSTS. GENERATED VIDEO OUT OF INSTAGRAM POSTS FROM INFLUENCERS. QUESTIONS ABOUT HOW WE CURATE OURSELVES AND HOW WE ARE CURATED ON SOCIAL MEDIA. ARE WE ONLY A PIECE OF FLESH FOR AI?
+  </span>
     </div>
-    <div class="captionwrapper">
-      HUNGRY GHOSTS. GENERATED VIDEO OUT OF INSTAGRAM POSTS FROM INFLUENCERS. ARE WE ONLY A PIECE OF FLESH FOR AI?
-    </div>
+
+
+
   </div>
-<div class="wrapperr"style="width:555px;height:1000px;">
+</div>
+
+
+
+</div>
+
+
+
+
+
+<div class="wrapperr"style="width:527px;height:1000px; cursor:pointer" ">
 <div class="blur">
 
-<div class="video"  style="width:555px;height:1000px;">
+<div class="video"  style="width:527px;height:1000px;">
 
-  <img src="./assets/Algorithmic.jpg" id="bild2" width="555" height="784"/>
-  <div id="wrapper3" style="display:none;">
+  <img src="./assets/Algorithmic.jpg" id="bild2" width="500" height="706"/>
+  <div id="wrapper3" style="display:none;"width="500" height="706">
     <video id="videoag" loop autoplay muted>
-         <source src="./assets/AG.mp4" type="video/mp4" width="555" height="784" />
+         <source src="./assets/AG1.mp4" type="video/mp4" width="527" height="745" />
       </video>
   </div>
+  <span class="captionwrapper2">  <br>RAGE AGAINST. MOVING POSTER AS AN CALL TO CHALLENGE THE USE OF TECHNOLOGY AND ASK WHICH IMPACT IT HAS ON THE WORLDS.</span>
+
 </div>
 
 </div>
-<div class="captionwrapper2">
-  RAGE BODIES. MOVING POSTER AS AN APPEAL TO QUESTION THE USE OF TECHNOLOGY AND WHICH IMPACT IT HAS ON US.
-</div>
-</div>
 
 </div>
+
+
+
+
+
+  <div class="blur">
+    <div style="cursor:pointer" class="wrapperl2">
+
+  <img src="./assets/ns1.jpg" id="nsscharf" width="686" height="443"/>
+
+  <div id="nsscharf2" style="display:none;"width="686" height="443">
+  <img src="./assets/ns2.jpg" width="686" height="443"/>
+  </div>
+
+  <div id="nsscharf3" style="display:none;"width="686" height="443">
+  <img src="./assets/ns3.jpg" width="686" height="443"/>
+  </div>
+
+  <div id="nsscharf4" style="display:none;"width="686" height="443">
+  <img src="./assets/ns4.jpg" width="686" height="443"/>
+  </div>
+
+  <div id="nsscharf5" style="display:none;"width="686" height="443">
+  <img src="./assets/ns5.jpg" width="686" height="443"/>
+  </div>
+
+  <div id="nsscharfe" style="display:none;"width="686" height="443">
+  <img src="./assets/nse.jpg" width="686" height="443"/>
+  </div>
+
+  <span class="captionwrapper3">  <br>PHOTOBOOKDESIGN FOR HIEN HOANG.</span>
+
+
+  </div>
+
+</div>
+
+
+
+
+<div class="wrapperrr"style="width:530px;height:1000px;">
+  <div class="blur">
+
+  <img src="./assets/Iloveyourcar.jpg" id="ilycschrift" width="424" height="600"/>
+  <div id="ilyc" style="display:none;"width="424" height="600">
+
+  <img src="./assets/ilycschrift.png" width="424" height="600"/>
+</div>
+<span class="captionwrapper3">  <br>     I LOVE YOUR CAR. IN A WORKSHOP BY CHARLOTTE ROHDE WE DESIGNED AN EMOTIONAL TYPE AND A MATCHING MEME FOR IT
+</div>
+</span>
+
+</div>
+
+
+
 
 
 
